@@ -1,0 +1,94 @@
+body 
+{
+    height: auto;
+    margin: 0;
+}
+
+header 
+{
+    background-color: yellow;
+
+}
+
+header h1
+ {
+    color: brown;
+    text-align: right;
+    padding: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+nav
+{
+    position: sticky;
+    top: 0;
+}
+.menu 
+{
+    background-color: grey;
+    top: 0;
+    margin: 0;
+}
+
+.menu li 
+{
+    display: inline-block;
+    padding: 15px;
+}
+.menu li a 
+{
+
+    text-decoration: none;
+    font-size: larger;
+    padding: 10px;
+    color: white;
+    top: 0;
+}
+.menu li:hover {
+background-color: black;   
+ padding: 10px;
+}
+
+#dd1,
+#dd2 
+{
+    position: absolute;
+    width: auto;
+    padding: 0;
+    margin-top: 10px;
+    display: none;
+    background-color: white;
+    color: royalblue;
+
+}
+
+.menu li:nth-child(2):hover #dd1 ,
+.menu li:nth-child(3):hover #dd2 {
+display: block;
+}
+#dd1 li,
+#dd2 li
+{
+    display: block;
+}
+#dd1 li:hover,
+#dd2 li:hover
+{
+   background-color: gainsboro;
+}
+#dd1 li a,
+#dd2 li a
+{
+    color: royalblue;
+}
+footer
+{
+    background-color: rgb(231, 228, 228);
+    border: 3px solid black;
+    margin-top: 70%;
+}
+footer h2
+{
+    color: brown;
+text-align: center;
+}
